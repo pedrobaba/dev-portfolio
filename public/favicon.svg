@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MrPedro code logo">
+  <rect width="64" height="64" rx="14" fill="#087e8b" />
+  <g
+    fill="none"
+    stroke="#ffffff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="5"
+  >
+    <path d="m42 21 11 11-11 11" />
+    <path d="M22 21 11 32l11 11" />
+    <path d="m37 13-10 38" />
+  </g>
+</svg>
