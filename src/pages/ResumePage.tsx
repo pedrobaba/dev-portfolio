@@ -1,6 +1,8 @@
-import { Briefcase, Clock, Info } from 'lucide-react';
+import { Briefcase, Clock, Download, ExternalLink } from 'lucide-react';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { learningExperience, profile } from '@/data/content';
+
+const resumeUrl = '/Sogo_Omolanbe_Frontend_Developer_Resume%20.pdf';
 
 export default function ResumePage() {
   return (
@@ -11,14 +13,31 @@ export default function ResumePage() {
           subtitle="A concise overview of how I am building practical frontend experience."
         />
 
-        <div className="mb-8 flex flex-col items-start gap-4 rounded-xl bg-teal/5 p-6 ring-1 ring-teal/10 dark:bg-teal/10 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center gap-3">
-            <Info className="h-5 w-5 text-teal" />
-            <p className="text-sm text-plum/70 dark:text-cream/70">
-              My résumé is being updated with verified project work and learning milestones.
-            </p>
+        <div className="mb-8 flex flex-col items-start gap-5 rounded-xl bg-teal/5 p-6 ring-1 ring-teal/10 dark:bg-teal/10 sm:flex-row sm:items-center sm:justify-between">
+          <p className="max-w-2xl text-sm leading-relaxed text-plum/70 dark:text-cream/70">
+            My résumé provides a concise overview of my frontend skills, project experience, and professional development. View it online or download a copy for your records.
+          </p>
+          <div className="flex w-full shrink-0 flex-col gap-2 sm:w-auto sm:flex-row">
+            <a
+              href={resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View résumé in a new tab"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal px-5 py-2.5 text-sm font-semibold text-cream transition-colors hover:bg-teal/90"
+            >
+              <ExternalLink className="h-4 w-4" />
+              View résumé
+            </a>
+            <a
+              href={resumeUrl}
+              download="Sogo-Omolanbe-Resume.pdf"
+              aria-label="Download résumé PDF"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-teal/30 px-5 py-2.5 text-sm font-semibold text-teal transition-colors hover:bg-teal/10 dark:border-teal/50"
+            >
+              <Download className="h-4 w-4" />
+              Download résumé
+            </a>
           </div>
-          <a href={`mailto:${profile.email}?subject=Resume request`} className="inline-flex items-center justify-center rounded-lg bg-teal px-5 py-2.5 text-sm font-semibold text-cream hover:bg-teal/90">Request résumé</a>
         </div>
 
         <section className="mb-12">

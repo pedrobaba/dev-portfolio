@@ -41,10 +41,9 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
-    category: 'Currently Learning',
+    category: 'Backend & Databases',
     skills: [
-      { name: 'Supabase', icon: 'Database' },
-      { name: 'Node.js', icon: 'Server' },
+      { name: 'Supabase', icon: 'Database' }
     ],
   },
 ];
