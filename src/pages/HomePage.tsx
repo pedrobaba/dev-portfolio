@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="mx-auto max-w-4xl text-center">
         <div className="animate-fade-in-up inline-flex items-center gap-2 rounded-full bg-teal/10 px-4 py-1.5 text-sm font-medium text-teal">
           <Sparkles className="h-4 w-4" />
-          Open to junior frontend opportunities
+          Open to frontend opportunities
         </div>
 
         <h1 className="animate-fade-in-up mt-8 font-heading text-5xl font-extrabold text-plum dark:text-cream sm:text-7xl">

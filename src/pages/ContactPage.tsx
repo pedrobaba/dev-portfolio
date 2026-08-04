@@ -81,7 +81,7 @@ export default function ContactPage() {
       <div className="mx-auto max-w-5xl">
         <SectionHeader
           title="Let&apos;s connect"
-          subtitle="I&apos;m open to junior frontend opportunities, internships, and conversations about building for the web."
+          subtitle="I&apos;m open to Frontend opportunities, internships, and conversations about building for the web."
         />
 
         <div className="grid gap-10 lg:grid-cols-[1fr_1.5fr]">
@@ -90,7 +90,7 @@ export default function ContactPage() {
             <div className="rounded-2xl bg-plum p-6 text-cream dark:bg-[#241d2c]">
               <h3 className="font-heading text-lg font-bold">Get in touch</h3>
               <p className="mt-2 text-sm text-cream/60">
-                I&apos;m currently looking for a junior frontend opportunity. You can reach me through any of the channels below.
+                I&apos;m currently looking for a frontend opportunity. You can reach me through any of the channels below.
               </p>
 
               <div className="mt-6 space-y-4">
