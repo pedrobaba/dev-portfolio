@@ -2,11 +2,9 @@ import type { SkillCategory } from '@/types';
 
 export const profile = {
   name: 'Sogo Omolanbe',
-  title: 'Junior Frontend Developer',
+  title: 'Frontend Developer',
   tagline: 'I build thoughtful, responsive interfaces with React, JavaScript, and CSS.',
-  bio: `I'm a self-directed frontend developer building a strong foundation in HTML, CSS, JavaScript, React, and TypeScript. I enjoy turning ideas into clear, accessible interfaces and learning by building projects from start to finish.
-
-I'm currently looking for a junior frontend opportunity where I can contribute to a supportive team, strengthen my engineering practice, and keep growing through real product work. The projects shown here are personal learning projects, and I describe them honestly so you can see how I think and what I can build.`,
+  bio: `I build web applications using HTML, CSS, JavaScript, React, and TypeScript. My focus is on turning design concepts into reality through clean architecture and accessible UI. I am passionate about engineering systems that are as intuitive for the user as they are maintainable for the developer. Currently looking to join a forward-thinking engineering team to build the next generation of web products.`,
   email: 'femilanbe@outlook.com',
   social: {
     github: 'https://github.com/pedrobaba',

@@ -29,7 +29,7 @@ export default function AboutPage() {
               </div>
               <div className="flex items-center gap-3 text-sm text-plum/60 dark:text-cream/60">
                 <Briefcase className="h-4 w-4 text-teal" />
-                Open to junior roles
+                Open to Frontend roles
               </div>
             </div>
           </div>

@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-8 md:flex-row md:justify-between">
           <div className="text-center md:text-left">
             <h3 className="font-heading text-xl font-bold">MrPedro</h3>
-            <p className="mt-1 text-sm text-cream/60">Junior Frontend Developer</p>
+            <p className="mt-1 text-sm text-cream/60">Frontend Developer</p>
           </div>
 
           <nav className="flex flex-wrap justify-center gap-6">
